@@ -5,6 +5,7 @@
 /**
 * @author Devlopnet
 * @author MorbZ
+* @author danpospisil
 * @licence CC
 */
 
@@ -60,7 +61,7 @@ switch ($fileCalled) {
 // ------------------------------------------------------
 		$elements = array();
 		foreach ($groups as $name=>$array) {
-			$ramMb = $array['memory'] / $array['count'];
+			$ramMb = $array['memory'];
 			$label = 'Pool ' . $name;
 			$elements[$name] = array(
 				'label'	=>	$label,
@@ -70,7 +71,7 @@ switch ($fileCalled) {
 		}
 		$config = array(
 			'params' => array(
-				'graph_title' => 'PHP-FPM Average Process Memory',
+				'graph_title' => 'PHP-FPM Memory Usage by pools',
 				'graph_vlabel' => 'MB'
 			),
 			'elements'	=>	$elements

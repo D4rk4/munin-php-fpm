@@ -1,4 +1,4 @@
-This is a revised version of [Devlopnet / munin-php-fpm](https://github.com/Devlopnet/munin-php-fpm) with the difference that processes are combined based on their pools. Also there is an average process age graph and a process count graph.
+This is a modified version of MorbZ/munin-php-fpm https://github.com/MorbZ/munin-php-fpm
 
 Setup PHP-FPM
 -------------
@@ -7,7 +7,7 @@ This plugin requires PHP CLI.
 
 ### Install Plugin
 `$ cd /usr/share/munin/plugins/`  
-`$ [sudo] wget -O php-fpm https://raw.github.com/MorbZ/munin-php-fpm/master/php-fpm.php`  
+`$ [sudo] wget -O php-fpm https://raw.github.com/danpospisil/munin-php-fpm/master/php-fpm.php`  
 `$ [sudo] chmod +x php-fpm`
 
 ### Setup Graphs
