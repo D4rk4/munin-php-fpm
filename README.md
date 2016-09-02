@@ -7,7 +7,7 @@ This plugin requires PHP CLI.
 
 ### Install Plugin
 `$ cd /usr/share/munin/plugins/`  
-`$ [sudo] wget -O php-fpm https://raw.github.com/danpospisil/munin-php-fpm/master/php-fpm.php`  
+`$ [sudo] wget -O php-fpm https://raw.github.com/d4rk4/munin-php-fpm/master/php-fpm.php`  
 `$ [sudo] chmod +x php-fpm`
 
 ### Setup Graphs

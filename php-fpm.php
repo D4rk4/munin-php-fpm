@@ -6,10 +6,11 @@
 * @author Devlopnet
 * @author MorbZ
 * @author danpospisil
+* @author D4rk4
 * @licence CC
 */
 
-exec("ps -eo %cpu,etime,rss,command | grep php-fpm", $result);
+exec("ps -Ao %cpu,etime,rss,command | grep php-fpm", $result);
 
 //iterate through processes
 $groups = array();
